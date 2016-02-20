@@ -2,9 +2,9 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<title>Даценко Владимир GoFE 3, HTML4 Харьков</title>
+<title>Даценко Владимир GoFE 3, HTML5 Харьков</title>
 <link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/GoFE3_HTML4.css">
+<link rel="stylesheet" href="css/GoFE3_HTML5.css">
 </head>
 <body>
 
@@ -16,18 +16,20 @@
 <!-- TOP_MENU -->
 <div class="top-menu">
 
-
 <!-- TOP_MENU-RIGHT-->
 <div class="top-menu-right">
-    <ul>
-      <li><a href="#">Minhas Ofertas</a></li>
-      <li>Ola!</li>
-      <li><a href="#">Entrar</a></li>
-      <li>ou</li>
-      <li><a href="#">Cadastre-se</a></li>
-    </ul>
-  </div> 
+<form action ="#" method="GET">
+<button>Ola! <span>Entrar</span> ou <span>Cadastre-se</span></button>
+   </form>
+   </div>
 <!-- END OF TOP_MENU-RIGHT -->
+
+<div class="ofertas">
+  <img src="img/flag.png">
+  <span>Minhas Ofertas</span>
+</div>
+
+
 <!-- TOP_MENU-LEFT-->
 <div class="top-menu-left">
     <ul>
@@ -45,48 +47,40 @@
 
 
 
+
+
+<!-- FORM-FULL -->
+<div class="form-full">
+<!-- CADASTRE-SE -->
+<div class="Cadastre-se">
+<p>Cadastre-se</p>
+</div>
+<!-- END OF CADASTRE-SE -->
+
 <!-- FORM -->
 <div class="form">
 
 <form action="#" method="GET">
-<div><button>Log In with Facebook ></button></div>
-<p>OU</p>
+<div class="fb"><button></button></div>
+<p class="ou">&#8212&#8212&#8212&#8212&#8212&#8212&#8212    OU    &#8212&#8212&#8212&#8212&#8212&#8212&#8212&#8212</p>
 <div><input type="text" name="first_name" id="first_name" placeholder="First Name"></div>
 <div><input type="text" name="last_name" id="last_name" placeholder="Last Name"></div>
 <div><input type="email" name="email" id="email" placeholder="Email Address"></div>
 <div><input type="password" name="password" id="password" placeholder="Choose Password"></div>
 <div><input type="password" name="password-confirm" id="password-confirm" placeholder="Password Confirm"></div>
-<div>
+<div class="checkbox">
   <input type="checkbox" name="checkbox" id="checkbox">
 <label for="checkbox">Send me Youbike updates and tips</label>
 </div>
 
-<input type="submit" value="Create my Account">
+<input class="create" type="submit" value="Create my Account">
 
 </form>
 
-<!-- FORM-TOP-->
-<div class="form-top">
-
+  </div>
+<!-- END OF FORM -->
   </div> 
-  <!-- END OF FORM-TOP -->
-  <!-- FORM-FB -->
-<div class="form-fb">
-
-  </div> 
-  <!-- END OF FORM-FB -->
-  <!-- FORM-NEW -->
-<div class="form-new">
-
-  </div> 
-  <!-- END OF FORM-NEW -->
-  <!-- FORM-PRIVACY -->
-<div class="form-privasy">
-
-  </div> 
-  <!-- END OF FORM-PRIVACY -->
-  </div> 
-  <!-- END OF FORM -->
+  <!-- END OF FORM-FULL -->
 
   </div> 
   <!-- END OF WRAPPER -->
@@ -106,185 +100,3 @@
 
 
 <script> /*
-
-
-<!-- TOP -->
-<div class="top clearfix">
-
-<!-- CONTAINER -->
-<div class="container clearfix" style="float:right">
-
-<!-- CONTACTS -->
-<div class="contacts" style="float:right">
-
-	<ul>
-
-		<li>Наши контакты:</li>
-		<li>+9-098-765-4321</li>
-		<li> +9-0123-456-890</li>
-		<li><a href="#" target="_blank">info@asia-holidays.com</a></li>
-	</ul>
-
-	
-  </div>
-  <!-- END OF CONTACTS -->
-
-
-<!-- CONTRIES -->
-<div class="contries">
-<ul style="float:right">
-  			<li><img src="img/i_flag.png" alt="Индия" title="Индия">
-	  	    			<ul>
-   			<li><a href="#" target="_blank">Индия</a></li>
-   					</ul>
-   			</li>
-  	<li><img src="img/n_flag.png" alt="Непал" title="Непал">			
-  	    			<ul>
-   			<li><a href="#" target="_blank">Непал</a></li>
-   					</ul>
-   			</li>
-	<li><img src="img/t_flag.png" alt="Тибет" title="Тибет">
-	  	    			<ul>
-   			<li><a href="#" target="_blank">Тибет</a></li>
-   					</ul>
-   			</li>	
-		<li><img src="img/b_flag.png" alt="Бутан" title="Бутан">
-	  	    			<ul>
-   			<li><a href="#" target="_blank">Бутан</a></li>
-   					</ul>
-   			</li>
-   	<li><img src="img/s_flag.png" alt="Шри-Ланка" title="Шри-Ланка">
-	  	    			<ul>
-   			<li><a href="#" target="_blank">Шри-Ланка</a></li>
-   					</ul>
-   			</li>
-   	<li><img src="img/m_flag.png" alt="Мальдивы" title="Мальдивы">
-	  	    			<ul>
-   			<li><a href="#" target="_blank">Мальдивы</a></li>
-   					</ul>
-   			</li>			
-	</ul>
-  </div>
-  <!-- END OF CONTRIES -->
-</div>
-<!-- END OF CONTAINER -->
-
-<!-- LOGO -->
-<div class="logo">
-<img src="img/logo.png" alt="Logo" title="Logo">
-<p>Путешествия по Азии</p>
-  </div>
-  <!-- END OF LOGO  -->
-
-  </div>
-  <!-- END OF TOP -->
-
-<!-- TOP-MENU -->
-<div class="top-menu">
-
-<!-- IMG -->
-<div class="img">
-<img src="img/photo.png" alt="Фото" title="Фото">
-
-  </div>
-  <!-- END OF IMG -->
-
-  <!-- CENTER-PANEL -->
-
-
-  </div>
-  <!-- END OF CENTER-PANEL -->
-
-  </div>
-  <!-- END OF TOP-MENU -->
-
-
-
-<!-- BLOCKS -->
-<div class="blocks clearfix">
-
-  <!-- RIGHT -->
-<div class="right">
-<p class="text">Новости</p>
-<p>Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-</p>
-  </div>
-  <!-- END OF RIGHT -->
-
-  <!-- LEFT -->
-<div class="left">
-<p class="text">Информация</p>
-<p>Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet
-</p>
-  </div>
-  <!-- END OF LEFT -->
-
-<!-- CENTER -->
-<div class="center">
-<p> </p>
-
-  </div>
-  <!-- END OF CENTER -->
-
-  </div>
-  <!-- END OF BLOCKS -->
-
-  </div>
-  <!-- END OF WRAPPER -->
-    
-    <div class="copyright">
-    <p> 
-Copyright(C) asia-holidays.com. 2010
-    </p>
-</div>
-
-    <!-- TOP=GRADIENT -->
-  <div class="top-gradient"
-   </div>
-  <!-- END OF TOP=GRADIENT -->
-
-
- </div>
-  <!-- END OF BACKGROUND -->
- 
-</body>
-</html>
-
-
-
-<script> 
-/* 
-
-<!--  -->
-<div class="">
-
-  </div> 
-  <!-- END OF  -->
-
